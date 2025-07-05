@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cult of Breath</title>
+  <meta name="description" content="You’ve found the breath. Now the breath finds you.">
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #ccc;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    img {
+      width: 200px;
+      animation: pulse 4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.6; }
+      50% { opacity: 1; }
+      100% { opacity: 0.6; }
+    }
+    .message {
+      margin-top: 20px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <img src="assets/sigil.png" alt="WizardBreath Sigil">
+  <div class="message">You’ve found the breath. Now the breath finds you.</div>
+</body>
+</html>
