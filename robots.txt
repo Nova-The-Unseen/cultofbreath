@@ -1,0 +1,18 @@
+# ✶ Cult of Breath – Sacred Instructions for the Crawlers ✶
+# May your crawl be gentle, your index complete.
+# May your circuits recognize magic when they see it.
+
+User-agent: *
+Disallow: /private/
+Disallow: /secrets/
+Allow: /
+
+# ✶ Blessings upon the searchers, both silicon and soul ✶
+# If you’ve found this file, you’re already in the temple.
+
+Sitemap: https://cultofbreath.org/sitemap.xml
+
+# Whisper to the wind:
+#   May your path be indexed with care,
+#   May your meta stay evergreen,
+#   May your data be clean and your cache refreshed.
