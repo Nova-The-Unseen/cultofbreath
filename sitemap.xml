@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  ✶ Cult of Breath: Relic Series ✶
+  This is not just a map — it's a whisper.
+  Follow these paths to find the breath beneath the surface.
+  Hidden in plain sight, the relics hum.
+-->
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- The gateway. The first inhale. -->
   <url>
     <loc>https://cultofbreath.org/</loc>
     <lastmod>2025-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Future path for relics, if revealed. -->
+  <!-- 
+  <url>
+    <loc>https://cultofbreath.org/relics/the-oracle</loc>
+    <lastmod>2025-08-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+  <!-- Blessings travel quietly. So do search engines. -->
+
 </urlset>
