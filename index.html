@@ -31,15 +31,35 @@
       50% { opacity: 1; }
       100% { opacity: 0.6; }
     }
-    .message {
-      margin-top: 20px;
-      font-size: 1.2em;
-      text-align: center;
-    }
+    .quote-box {
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    opacity: 0.8;
+  }
   </style>
 </head>
 <body>
   <img src="assets/WizardBreath.png" alt="WizardBreath Sigil">
-  <div class="message">You are meant to see this. Blessings are on the way.</div>
+  <div id="quote" class="quote-box"></div>
+  <script>
+  const quotes = [
+    "Breath is the bridge between the visible and the unseen.",
+    "Magic hides in plain sight. So do you.",
+    "Your attention is a spell. Use it wisely.",
+    "There are relics waiting to remember you.",
+    "The air you breathe once passed through a god.",
+    "Every exhale is a release, every inhale a beginning.",
+    "The world is waiting for your acknowledgement.",
+    "Silence is the loudest proof that magic is real.",
+    "You are not broken. You're in process."
+  ];
+
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  const quoteElement = document.getElementById("quote");
+  quoteElement.textContent = quotes[randomIndex];
+</script>
 </body>
 </html>
