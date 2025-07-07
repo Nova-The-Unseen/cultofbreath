@@ -23,12 +23,16 @@
     }
     img {
       width: 600px;
-      animation: pulse 4s ease-in-out infinite;
     }
+
+    .pulse {
+       animation: pulse 4s ease-in-out infinite;
+    }
+
     @keyframes pulse {
-      0% { opacity: 0.6; }
-      50% { opacity: 1; }
-      100% { opacity: 0.6; }
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
     }
     .quote-box {
     font-style: italic;
@@ -37,11 +41,11 @@
     margin: 40px auto;
     max-width: 600px;
     opacity: 0.8;
-  }
+    }
   </style>
 </head>
 <body>
-  <img src="assets/WizardBreath.png" alt="Digital twin of WizardBreath sticker relic, breath-powered magic.">
+  <img class="pulse" src="assets/WizardBreath.png" alt="Digital twin of WizardBreath sticker relic, breath-powered magic.">
   <!-- This page is a digital twin of a physical sticker from the Cult of Breath Relic Series -->
   <div id="quote" class="quote-box"></div>
   <p style="display:none;" aria-hidden="true">
